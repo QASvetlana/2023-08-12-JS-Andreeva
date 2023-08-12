@@ -1,9 +1,3 @@
-function greet (user) {
-    console.log('Test ' + user)    
-}
-
-const bye = (name) => {
-    console.log('Test2 ' + name)
-}
+import { greet, bye } from './module.js'
 greet('First user')
 bye('Second user')
