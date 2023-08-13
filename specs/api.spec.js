@@ -5,5 +5,5 @@ test('Get request', async () => {
     const response = await fetch(URL);
     const data = await  response.json();
     console.log(data);
-    expect(response.status).toBe("200");
+    expect(response.status).toBe(200);
 })
